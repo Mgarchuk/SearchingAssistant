@@ -5,11 +5,12 @@ public class SearchingAssistant {
 
     private static final Logger logger = LoggerFactory.getLogger(SearchingAssistant.class.getName());
 
-    static {
+    public static int binarySearch(int[] array, int number) {
         logger.debug("Start of the binarySearch method");
+        return binarySearch(array, number, 0, array.length - 1);
     }
 
-    public static int binarySearch(int[] array, int number, int left, int right) {
+    private static int binarySearch(int[] array, int number, int left, int right) {
         if (left > right) {
             return -1;
         }
@@ -19,7 +20,7 @@ public class SearchingAssistant {
         logger.debug("Range [{}, {}], middle index = {}, element value = {}", left, right, middle, array[middle]);
 
         if (array[middle] > number) {
-            return binarySearch(array, number, left, middle - 1);
+            return binarySearch(array, number, left, middle -1);
         } else if (array[middle] < number) {
             return binarySearch(array, number, middle + 1, right);
         }

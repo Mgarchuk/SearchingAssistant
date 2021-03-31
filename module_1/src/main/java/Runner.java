@@ -18,7 +18,7 @@ public class Runner {
         sortedArray[0] = random.nextInt(20);
         System.out.printf("\n%d ", sortedArray[0]);
 
-        for (int i = 1; i < 100; ++i) {
+        for (int i = 1; i < sortedArray.length; ++i) {
             sortedArray[i] = random.nextInt(20) + sortedArray[i - 1];
             System.out.printf("%d ", sortedArray[i]);
             if (i % 9 == 0) {
@@ -36,7 +36,7 @@ public class Runner {
 
         logger.debug("required number set");
 
-        int required_index = SearchingAssistant.binarySearch(sortedArray, number, 0, sortedArray.length - 1);
+        int required_index = SearchingAssistant.binarySearch(sortedArray, number);
 
         if (required_index >= 0) {
             System.out.printf("Required index = %d\n", required_index);

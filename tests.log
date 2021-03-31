@@ -1,48 +1,16 @@
-22:25:06.899 [DEBUG] Runner - Start of the program
-22:25:06.914 [DEBUG] Runner - Array created
-22:25:11.424 [DEBUG] Runner - required number set
-22:25:11.426 [DEBUG] SortingAssistant - Start of the binarySearch method
-22:25:11.427 [DEBUG] SortingAssistant - Range [0, 99], middle index = 49, element value = 424
-22:25:11.430 [DEBUG] SortingAssistant - Range [50, 99], middle index = 74, element value = 682
-22:25:11.430 [DEBUG] SortingAssistant - Range [75, 99], middle index = 87, element value = 809
-22:25:11.430 [DEBUG] SortingAssistant - Range [88, 99], middle index = 93, element value = 891
-22:25:11.430 [DEBUG] SortingAssistant - required number is found
-22:25:11.430 [DEBUG] Runner - End of the binarySearch method
-22:25:11.430 [DEBUG] Runner - End of the program
 
-
-
-
-22:25:43.298 [DEBUG] Runner - Start of the program
-22:25:43.309 [DEBUG] Runner - Array created
-22:25:45.125 [DEBUG] Runner - required number set
-22:25:45.126 [DEBUG] SortingAssistant - Start of the binarySearch method
-22:25:45.127 [DEBUG] SortingAssistant - Range [0, 99], middle index = 49, element value = 490
-22:25:45.128 [DEBUG] SortingAssistant - Range [0, 48], middle index = 24, element value = 254
-22:25:45.128 [DEBUG] SortingAssistant - Range [0, 23], middle index = 11, element value = 121
-22:25:45.128 [DEBUG] SortingAssistant - Range [0, 10], middle index = 5, element value = 77
-22:25:45.128 [DEBUG] SortingAssistant - Range [0, 4], middle index = 2, element value = 42
-22:25:45.129 [DEBUG] SortingAssistant - Range [0, 1], middle index = 0, element value = 17
-22:25:45.129 [DEBUG] SortingAssistant - Range [1, 1], middle index = 1, element value = 27
-22:25:45.129 [DEBUG] Runner - End of the binarySearch method
-22:25:45.129 [DEBUG] Runner - End of the program
-
-
-
-
-22:42:23.467 [DEBUG] Runner - Start of the program
-22:42:23.481 [DEBUG] Runner - Array created
-22:42:30.183 [DEBUG] Runner - required number set
-22:42:30.184 [DEBUG] SearchingAssistant - Start of the binarySearch method
-22:42:30.184 [DEBUG] SearchingAssistant - Range [0, 99], middle index = 49, element value = 488
-22:42:30.186 [DEBUG] SearchingAssistant - Range [50, 99], middle index = 74, element value = 698
-22:42:30.186 [DEBUG] SearchingAssistant - Range [75, 99], middle index = 87, element value = 818
-22:42:30.186 [DEBUG] SearchingAssistant - Range [88, 99], middle index = 93, element value = 874
-22:42:30.186 [DEBUG] SearchingAssistant - Range [94, 99], middle index = 96, element value = 886
-22:42:30.186 [DEBUG] SearchingAssistant - Range [94, 95], middle index = 94, element value = 877
-22:42:30.186 [DEBUG] SearchingAssistant - required number is found
-22:42:30.186 [DEBUG] Runner - End of the binarySearch method
-22:42:30.186 [DEBUG] Runner - End of the program
+00:58:10.558 [DEBUG] Runner - Start of the program
+00:58:10.570 [DEBUG] Runner - Array created
+00:58:12.277 [DEBUG] Runner - required number set
+00:58:12.279 [DEBUG] SearchingAssistant - Start of the binarySearch method
+00:58:12.280 [DEBUG] SearchingAssistant - Range [0, 99], middle index = 49, element value = 526
+00:58:12.283 [DEBUG] SearchingAssistant - Range [0, 48], middle index = 24, element value = 239
+00:58:12.283 [DEBUG] SearchingAssistant - Range [0, 23], middle index = 11, element value = 145
+00:58:12.284 [DEBUG] SearchingAssistant - Range [0, 10], middle index = 5, element value = 60
+00:58:12.284 [DEBUG] SearchingAssistant - Range [0, 4], middle index = 2, element value = 29
+00:58:12.284 [DEBUG] SearchingAssistant - Range [0, 1], middle index = 0, element value = 6
+00:58:12.284 [DEBUG] Runner - End of the binarySearch method
+00:58:12.284 [DEBUG] Runner - End of the program
 
 
 
